@@ -19,13 +19,13 @@ public class View {
                 "¿Qué desea hacer con la cadena? Selecione una opción. \n"+
                 "[1] Convertirla a nombre propio.\n"+
                 "[2] Buscar cadena.\n"+
-                "[3] Encriptar.\n"+
-                "[4] Desencriptar.\n"+
+                "[3] Contar Vocales.\n"+
+                "[4] Año nuevo.\n"+
                 "[5] Llenar caracteres.\n"+
                 "[6] Borrar caracteres.\n"+
                 "[7] Intersección.\n"+
-                "[8] Diferencia.\n"+
-                "[9] Borrar caracteres Izquierda o Derecha\r\n" +
+                "[8] Eliminar repetidos.\n"+
+                "[9] Contar palabras\r\n" +
                 "[10] Validar direccion de correo.\n"+
                 "[11] Salir.");
         int option = Integer.parseInt( sc.nextLine() );

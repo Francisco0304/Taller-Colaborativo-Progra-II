@@ -82,24 +82,6 @@ public class View {
     }
 
     /**
-     * Metodo que permite selccionar una dirección (Derecha o Izquierda).
-     * @param message Recibe por parametro una cadena como mensaje.
-     * @return Devuelve una cadena indecando la dirección selecionada (Derecha o Izquierda).
-     */
-    public String selecDirection(String message) {
-        int option = 0;
-        System.out.println(message);
-        System.out.println("[1] Derecha");
-        System.out.println("[2] Izquierda");
-        option = Integer.parseInt( sc.nextLine() );
-        if (option < 1 || option > 2) {
-            showMessageErr("Opción invalida");
-        }
-
-        return option == 1 ? "Derecha" : "Izquierda";
-    }
-
-    /**
      * Metodo que permite leer los elementos de un ArrayList de tipo String.
      * @param sentence Recibe por parametro un ArrayList<String>.
      */

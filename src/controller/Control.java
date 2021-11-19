@@ -46,7 +46,7 @@ public class Control {
 				break;
 			case 2:
 				view.showMessage("La cadena esta " + features.findString(view.readString("Escriba la cadena a buscar"))
-						+ " veces");
+				+ " veces");
 				break;
 			case 3:
 				view.showMessage("La vocal se encuentra "
@@ -55,7 +55,7 @@ public class Control {
 						+ " veces.");
 				break;
 			case 4:
-				view.showMessage("Faltan "+(String.valueOf(features.newYear()))+ " minutos para año nuevo");
+				view.showMessage("Faltan " + (String.valueOf(features.newYear())) + " minutos para año nuevo");
 				break;
 			case 5:
 				char character = view.readChar("Digite el caracter que desea añadir");
@@ -73,7 +73,8 @@ public class Control {
 				view.showMessage(features.difference(view.readString("Digite la cadena")));
 				break;
 			case 9:
-				
+				view.showMessage("La cadena tiene " + features.wordCount(view.readString("Escriba la cadena a buscar"))
+				+ " palabras");
 				break;
 			case 10:
 				view.showCheckEmail(features.checkEmail(view.readString("Digite direccion de correo")));

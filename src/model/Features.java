@@ -23,10 +23,18 @@ public class Features {
 		this.ms = ms;
 	}
 
+	/**
+	 * Metodo getMs
+	 * @return Contiene la cadena de caracteres de la variable ms.
+	 */
 	public String getMs() {
 		return ms;
 	}
 
+	/**
+	 * Metodo setMs
+	 * @param ms el cual envia la cadena contenida en la varieble ms.
+	 */
 	public void setMs(String ms) {
 		this.ms = ms;
 	}
@@ -99,6 +107,10 @@ public class Features {
 		return repeated;
 	}
 
+	/**
+	 * 
+	 * @return
+	 */
 	public String newYear() {
 		String hour, minute, second, ampm, space = ":", space1 = " ", time1[] = null, time2[] = { "12:00:00 am" };
 		int minutes = 0;

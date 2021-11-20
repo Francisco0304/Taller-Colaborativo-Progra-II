@@ -4,14 +4,14 @@
 ### Luis Francisco Gonzalez Morales.
 ### Andrés Felipe Pongutá Pérez.
 
-##Autoevaluacion 
-###Luis Gonzales:
-###Andrés Pongutá: 50
+#Autoevaluacion 
+##Luis Gonzales:
+##Andrés Pongutá: 50
 
-##Coevaluacion 
+#Coevaluacion 
 ##Autoevaluacion 
-###Luis Gonzales: 50
-###Andrés Pongutá:
+##Luis Gonzales: 50
+##Andrés Pongutá:
 
 ## ID: 
 ### IntelliJ IDEA

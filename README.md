@@ -4,10 +4,10 @@
 ### Luis Francisco Gonzalez Morales.
 ### Andrés Felipe Pongutá Pérez.
 ## Autoevaluacion 
-### Luis Gonzales: 50
+### Luis Gonzalez: 50
 ### Andrés Pongutá: 50
 ## Coevaluacion  
-### Luis Gonzales: 50
+### Luis Gonzalez: 50
 ### Andrés Pongutá: 50
 
 ## ID: 
